@@ -28,6 +28,7 @@ public class SimpleHTTPServer {
         clientSocket.getOutputStream().write(httpResponse.getBytes("UTF-8"));
 
       }
+
     }
   }
 }
